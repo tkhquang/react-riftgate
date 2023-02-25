@@ -2,7 +2,6 @@
   "name": "@tkhquang/react-teleporter",
   "private": true,
   "version": "0.1.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -31,13 +30,13 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/react-teleporter.umd.js",
-  "module": "./dist/react-teleporter.es.js",
+  "main": "./dist/@tkhquang/react-teleporter.umd.js",
+  "module": "./dist/@tkhquang/react-teleporter.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/react-teleporter.es.js",
-      "require": "./dist/react-teleporter.umd.js"
+      "import": "./dist/@tkhquang/react-teleporter.es.js",
+      "require": "./dist/@tkhquang/react-teleporter.umd.js"
     }
   }
 }
