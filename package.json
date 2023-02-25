@@ -1,16 +1,46 @@
 {
-  "name": "react-teleporter",
   "private": true,
   "workspaces": {
     "packages": [
       "packages/*",
-      "sites/*"
     ]
   },
+  "scripts": {
+    "dev": "yarn storybook",
+    "build:hooks": "cd ./packages/hooks && tsc && vite build",
+    "build:utils": "cd ./packages/utils && tsc && vite build",
+    "build:portal": "cd ./packages/portal && tsc && vite build",
+    "build:teleporter": "cd ./packages/teleporter && tsc && vite build",
+    "build": "yarn build:hooks && yarn build:utils && yarn build:portal && yarn build:teleporter",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
   "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-vite": "^0.4.2",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "@xstyled/styled-components": "^3.7.0",
+    "babel-loader": "^8.3.0",
     "eslint": "^8.34.0",
     "eslint-plugin-react": "^7.32.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "^2.8.4"
+    "eslint-plugin-storybook": "^0.6.11",
+    "prettier": "^2.8.4",
+    "react-syntax-highlighter": "^15.5.0",
+    "styled-components": "^5.3.6",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
   }
 }
