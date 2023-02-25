@@ -1,11 +1,11 @@
 [![From Vietnam with <3](https://raw.githubusercontent.com/webuild-community/badge/master/svg/love.svg)](https://webuild.community)
 
-[react-riftgate](https://github.com/tkhquang/react-riftgate) is an open source library that provides lower-level [React](https://reactjs.org/)
+**react-riftgate** is an open source library that provides lower-level [React](https://reactjs.org/)
 components for teleporting React components from one place to another in the same React tree.
 
-# [Docs](https://github.com/tkhquang/react-riftgate)
+# [Docs](https://react-riftgate.netlify.app)
 
-See the documentation at [tkhquang](https://github.com/tkhquang/react-riftgate) for more information about using `react-riftgate`!
+See the documentation at [react-riftgate.netlify.app](https://react-riftgate.netlify.app) for more information about using `react-riftgate`!
 
 # Example
 
