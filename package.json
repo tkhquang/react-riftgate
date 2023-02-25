@@ -1,0 +1,11 @@
+{
+  "name": "react-teleporter",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "sites/*"
+    ]
+  },
+  "devDependencies": {}
+}
