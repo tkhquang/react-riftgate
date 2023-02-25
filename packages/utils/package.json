@@ -2,6 +2,19 @@
   "name": "@react-riftgate/utils",
   "version": "0.1.0",
   "type": "module",
+  "description": "Utilities for react-riftgate",
+  "keywords": [
+    "portal",
+    "teleporter",
+    "riftgate",
+    "react-riftgate",
+    "utils",
+    "Utilities"
+  ],
+  "author": "Quang Trinh <khacquang.trinh@gmail.com>",
+  "publishConfig": {
+    "access": "public"
+  },
   "license": "MIT",
   "scripts": {
     "dev": "vite",

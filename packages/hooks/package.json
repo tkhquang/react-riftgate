@@ -2,6 +2,19 @@
   "name": "@react-riftgate/hooks",
   "version": "0.1.0",
   "type": "module",
+  "description": "Custom hooks for react-riftgate",
+  "keywords": [
+    "react",
+    "reactjs",
+    "portal",
+    "teleporter",
+    "riftgate",
+    "react-riftgate"
+  ],
+  "author": "Quang Trinh <khacquang.trinh@gmail.com>",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build"
