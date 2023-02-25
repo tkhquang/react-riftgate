@@ -14,7 +14,8 @@
     "build": "yarn build:hooks && yarn build:utils && yarn build:portal && yarn build:teleporter",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "postpublish": "PACKAGE_VERSION=$(cat package.json | grep \\\"version\\\" | head -1 | awk -F: '{ print $2 }' | sed 's/[\",]//g' | tr -d '[[:space:]]') && git tag v$PACKAGE_VERSION && git push --tags"
   },
   "dependencies": {
     "react": "^18.2.0",
