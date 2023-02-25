@@ -5,7 +5,7 @@ components for teleporting React components from one place to another in the sam
 
 # [Docs](https://github.com/tkhquang/react-riftgate)
 
-See the documentation at [tkhquang](https://github.com/tkhquang/react-riftgate) for more information about using xstyled!
+See the documentation at [tkhquang](https://github.com/tkhquang/react-riftgate) for more information about using `react-riftgate`!
 
 # Example
 
