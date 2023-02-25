@@ -1,6 +1,5 @@
 {
   "name": "@react-riftgate/hooks",
-  "private": true,
   "version": "0.1.0",
   "type": "module",
   "scripts": {
