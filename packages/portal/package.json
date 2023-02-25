@@ -1,0 +1,37 @@
+{
+  "name": "@react-riftgate/portal",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@react-riftgate/utils": "*"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0",
+    "vite-plugin-dts": "^2.0.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/@react-riftgate/portal.umd.js",
+  "module": "./dist/@react-riftgate/portal.es.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/@react-riftgate/portal.es.js",
+      "require": "./dist/@react-riftgate/portal.umd.js"
+    }
+  }
+}
