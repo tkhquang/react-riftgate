@@ -1,4 +1,16 @@
-[![From Vietnam with <3](https://raw.githubusercontent.com/webuild-community/badge/master/svg/love.svg)](https://webuild.community)
+<h1 align="center">React Riftgate</h1>
+
+<p align="center">
+  <a href="https://webuild.community">
+    <img src="https://raw.githubusercontent.com/webuild-community/badge/master/svg/love.svg" alt="From Vietnam with &lt;3">
+  </a>
+  <a href="https://www.npmjs.com/package/@react-riftgate/teleporter">
+    <img alt="NPM version" src="https://img.shields.io/npm/v/@react-riftgate/teleporter.svg?logo=npm&color=007acc" />
+  </a>
+  <a href="https://app.netlify.com/sites/react-riftgate/deploys">
+    <img src="https://api.netlify.com/api/v1/badges/f85a4880-68da-440b-aeb9-fd54f0140286/deploy-status?branch=main" alt="Netlify Status">
+  </a>
+</p>
 
 **react-riftgate** is an open source library that provides lower-level [React](https://reactjs.org/)
 components for teleporting React components from one place to another in the same React tree.
@@ -62,4 +74,4 @@ The rendered HTML structure will be like below
 
 Licensed under the MIT License, Copyright © 2023-present Quang Trinh.
 
-See [LICENSE](https://github.com/tkhquang/react-riftgate/blob/main/LICENSE.md) for more information.
+See [LICENSE](https://github.com/tkhquang/react-riftgate/blob/main/LICENSE) for more information.
