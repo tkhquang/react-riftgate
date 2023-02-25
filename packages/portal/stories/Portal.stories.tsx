@@ -4,7 +4,7 @@ import { Portal, PortalContext } from "../src";
 
 export default {
   title: "Portal",
-  decorators: [(story: Function) => <x.div>{story()}</x.div>]
+  decorators: [(story: Function) => <x.div>{story()}</x.div>],
 };
 
 const Red = styled.box`
@@ -80,7 +80,7 @@ export const Custom = () => {
   const yellowDivRef = useRef<HTMLDivElement>(null);
 
   const [parentNode, setParentNode] = useState<HTMLElement | null | undefined>(
-    () => redDivRef.current
+    () => redDivRef.current,
   );
 
   useLayoutEffect(() => {

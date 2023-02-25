@@ -6,7 +6,7 @@ import type { TeleporterContextValue, TeleporterProviderProps } from "./types";
 
 function TeleporterProvider({ children }: TeleporterProviderProps) {
   const [state, setState] = useState<TeleporterContextValue["state"]>(
-    new Map([])
+    new Map([]),
   );
 
   return (

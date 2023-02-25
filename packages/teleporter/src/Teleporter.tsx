@@ -30,7 +30,7 @@ const Gate = ({
         setState((prevState) => prevState.set(portKey, node));
       }
     },
-    [setState]
+    [setState],
   );
 
   return <Component ref={refCallback} data-portKey={portKey} {...props} />;

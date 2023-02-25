@@ -4,15 +4,15 @@ module.exports = {
     "../stories/**/*.stories.@(js|jsx|ts|tsx)",
     "../packages/**/stories/**/*.stories.@(js|jsx|ts|tsx)",
     "../packages/**/stories/**/*.stories.mdx",
-    "../packages/**/stories/**/*.stories.@(js|jsx|ts|tsx)"
+    "../packages/**/stories/**/*.stories.@(js|jsx|ts|tsx)",
   ],
   addons: [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "@storybook/addon-interactions"
+    "@storybook/addon-interactions",
   ],
   framework: "@storybook/react",
   core: {
-    builder: "@storybook/builder-vite"
-  }
+    builder: "@storybook/builder-vite",
+  },
 };

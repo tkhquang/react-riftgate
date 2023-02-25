@@ -13,7 +13,8 @@
     "build:teleporter": "cd ./packages/teleporter && tsc && vite build",
     "build": "yarn build:hooks && yarn build:utils && yarn build:portal && yarn build:teleporter",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "react": "^18.2.0",

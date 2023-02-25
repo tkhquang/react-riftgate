@@ -7,19 +7,19 @@ export default defineConfig({
   plugins: [
     react(),
     dts({
-      insertTypesEntry: true
-    })
+      insertTypesEntry: true,
+    }),
   ],
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
       name: "@react-riftgate/utils",
       formats: ["es", "umd"],
-      fileName: (format) => `@react-riftgate/utils.${format}.js`
+      fileName: (format) => `@react-riftgate/utils.${format}.js`,
     },
     rollupOptions: {
       external: [],
-      output: {}
-    }
-  }
+      output: {},
+    },
+  },
 });

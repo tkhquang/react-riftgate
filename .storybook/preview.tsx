@@ -1,13 +1,13 @@
 import React from "react";
-import { PrismLight as SyntaxHighlighter } from 'react-syntax-highlighter';
-import tsx from 'react-syntax-highlighter/dist/esm/languages/prism/tsx';
- 
-SyntaxHighlighter.registerLanguage('tsx', tsx);
+import { PrismLight as SyntaxHighlighter } from "react-syntax-highlighter";
+import tsx from "react-syntax-highlighter/dist/esm/languages/prism/tsx";
+
+SyntaxHighlighter.registerLanguage("tsx", tsx);
 
 import {
   defaultTheme,
   ThemeProvider,
-  Preflight
+  Preflight,
 } from "@xstyled/styled-components";
 
 export const parameters = {
@@ -15,8 +15,8 @@ export const parameters = {
   controls: {
     matchers: {
       color: /(background|color)$/i,
-      date: /Date$/
-    }
+      date: /Date$/,
+    },
   },
   decorators: [
     (Story) => (
@@ -24,6 +24,6 @@ export const parameters = {
         <Preflight />
         <Story />
       </ThemeProvider>
-    )
-  ]
+    ),
+  ],
 };

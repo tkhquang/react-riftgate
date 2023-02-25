@@ -7,24 +7,24 @@ export default defineConfig({
   plugins: [
     react(),
     dts({
-      insertTypesEntry: true
-    })
+      insertTypesEntry: true,
+    }),
   ],
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/index.ts"),
       name: "@react-riftgate/portal",
       formats: ["es", "umd"],
-      fileName: (format) => `@react-riftgate/portal.${format}.js`
+      fileName: (format) => `@react-riftgate/portal.${format}.js`,
     },
     rollupOptions: {
       external: ["react", "react-dom"],
       output: {
         globals: {
           react: "React",
-          "react-dom": "ReactDOM"
-        }
-      }
-    }
-  }
+          "react-dom": "ReactDOM",
+        },
+      },
+    },
+  },
 });

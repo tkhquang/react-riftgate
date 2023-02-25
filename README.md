@@ -1,7 +1,7 @@
 [![From Vietnam with <3](https://raw.githubusercontent.com/webuild-community/badge/master/svg/love.svg)](https://webuild.community)
 
 [react-riftgate](https://github.com/tkhquang/react-riftgate) is an open source library that provides lower-level [React](https://reactjs.org/)
-components for teleporting React components from one place to another in the same React tree. 
+components for teleporting React components from one place to another in the same React tree.
 
 # [Docs](https://github.com/tkhquang/react-riftgate)
 
@@ -38,10 +38,10 @@ The rendered HTML structure will be like below
 
 ```html
 <div>
-    <div id="gate">
-        <div id="please-put-me-in-gate"></div>
-    </div>
-    <div id="ignore-me-please"></div>
+  <div id="gate">
+    <div id="please-put-me-in-gate"></div>
+  </div>
+  <div id="ignore-me-please"></div>
 </div>
 ```
 

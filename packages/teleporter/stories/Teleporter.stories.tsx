@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import styled, { x } from "@xstyled/styled-components";
 
 import { TeleporterProvider, Teleporter } from "../src";
 
 export default {
   title: "Teleporter",
-  decorators: [(story: Function) => <x.div>{story()}</x.div>]
+  decorators: [(story: Function) => <x.div>{story()}</x.div>],
 };
 
 export const Basic = () => {
@@ -49,13 +49,13 @@ export const Basic = () => {
         <Teleporter.Move>
           <div>This should be rendered in `LAYER-2 #1`</div>
           <Teleporter.Domain>
-          <Teleporter.Move>
-            <div>This should be rendered in `document.body #5`</div>
-          </Teleporter.Move>
+            <Teleporter.Move>
+              <div>This should be rendered in `document.body #5`</div>
+            </Teleporter.Move>
           </Teleporter.Domain>
         </Teleporter.Move>
         <div>This should be rendered in `document.body #6`</div>
       </Teleporter.Domain>
     </TeleporterProvider>
   );
-}
+};

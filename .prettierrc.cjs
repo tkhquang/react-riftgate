@@ -1,13 +1,6 @@
 module.exports = {
-  parser: "flow",
-  printWidth: 80,
-  tabWidth: 2,
-  useTabs: false,
   semi: true,
   singleQuote: false,
-  trailingComma: "none",
+  trailingComma: "all",
   bracketSpacing: true,
-  commaDangle: ["error", "always"],
-  noCondAssign: ["error", "always"],
-  overrides: []
 };
