@@ -2,7 +2,7 @@
   "name": "@react-riftgate/portal",
   "version": "0.1.0",
   "type": "module",
-  "description": "An open source library that provides lower-level React components for teleporting React components from one place to another in the same React tree",
+  "description": "An abstract wrapper component that uses React's Portal underneath",
   "keywords": [
     "react",
     "reactjs",

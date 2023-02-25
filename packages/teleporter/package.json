@@ -2,7 +2,7 @@
   "name": "@react-riftgate/teleporter",
   "version": "0.1.0",
   "type": "module",
-  "description": "An abstract wrapper component that uses React's Portal underneath",
+  "description": "A library that provides lower-level React components for teleporting React components from one place to another in the same React tree",
   "keywords": [
     "react",
     "reactjs",
