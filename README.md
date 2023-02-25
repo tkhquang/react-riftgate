@@ -15,17 +15,26 @@ import { Teleporter } from "@react-riftgate/teleporter";
 const MyComponent = () => {
   return (
     <div>
-      {`Teleporter.Gate is the destination that will have dynamic content`}
+      {/**
+       * `Teleporter.Gate` is the destination that will have dynamic content
+       **/}
       <Teleporter.Gate portKey="somekey" id="gate" />
-      {`Teleporter.Domain is the teleport1able area that will move
-        everything inside Teleporter.Move to the Gate which has the same portKey
-        While leaving the rest which are outside of Teleporter.Move untouched`}
+      {/**
+       * `Teleporter.Domain` is the teleport1able area that will move everything
+       * inside `Teleporter.Move` to the `Teleporter.Gate` which has the same
+       * `portKey` value, while leaving the rest which are outside of
+       * `Teleporter.Move` untouched
+       **/}
       <Teleporter.Domain portKey="somekey">
-        {`... Stuff here won't be put to Teleporter.Gate because
-          they are not inside Teleporter.Move`}
+        {/**
+         * Stuff here won't be put to `Teleporter.Gate` because they are
+         * not inside `Teleporter.Move`
+         **/}
         <div id="ignore-me-please" />
         <Teleporter.Move>
-          {`This will be teleported to <Teleporter.Gate portKey="somekey" />`}
+          {/**
+           * This will be teleported to `<Teleporter.Gate portKey="somekey" />`
+           **/}
           <div id="please-put-me-in-gate" />
         </Teleporter.Move>
       </Teleporter.Domain>
@@ -44,6 +53,10 @@ The rendered HTML structure will be like below
   <div id="ignore-me-please"></div>
 </div>
 ```
+
+# Quick start
+
+[Codesandbox example](https://codesandbox.io/p/sandbox/react-riftgate-example-6j3k9u)
 
 # License
 
