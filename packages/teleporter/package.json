@@ -13,7 +13,8 @@
   ],
   "author": "Quang Trinh <khacquang.trinh@gmail.com>",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
