@@ -186,7 +186,7 @@ Updating, improving and correcting the documentation
 
 ## Styleguides
 
-Please follow the `.prettierrc.js` in the project.
+Please follow the `.prettierrc.cjs` in the project.
 
 ## Attribution
 
