@@ -23,10 +23,6 @@
   "bugs": {
     "url": "https://github.com/tkhquang/react-riftgate/issues"
   },
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build"
-  },
   "dependencies": {},
   "devDependencies": {},
   "peerDependencies": {
