@@ -33,7 +33,7 @@ const Gate = ({
     [setState],
   );
 
-  return <Component ref={refCallback} data-portKey={portKey} {...props} />;
+  return <Component ref={refCallback} data-portkey={portKey} {...props} />;
 };
 
 const Domain = ({ portKey = null, children }: TeleporterDomainProps) => {
