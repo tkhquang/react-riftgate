@@ -9,12 +9,12 @@ export type TeleporterProviderProps = React.PropsWithChildren<{}>;
 
 export type TeleporterGateComponentProps =
   React.ComponentPropsWithRef<"div"> & {
-    "data-portKey": string;
+    "data-portkey": string;
   };
 
 export type TeleporterGateProps<T = TeleporterGateComponentProps> =
   React.PropsWithChildren<
-    Omit<TeleporterGateComponentProps, "data-portKey"> & {
+    Omit<TeleporterGateComponentProps, "data-portkey"> & {
       component?: React.ComponentType<T>;
       portKey: string;
     }
