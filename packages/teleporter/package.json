@@ -1,6 +1,6 @@
 {
   "name": "@react-riftgate/teleporter",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "type": "module",
   "description": "A library that provides lower-level React components for teleporting React components from one place to another in the same React tree",
   "keywords": [
@@ -30,18 +30,9 @@
   },
   "dependencies": {
     "@react-riftgate/hooks": "*",
-    "@react-riftgate/portal": "*",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@react-riftgate/portal": "*"
   },
-  "devDependencies": {
-    "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10",
-    "@vitejs/plugin-react": "^3.1.0",
-    "typescript": "^4.9.3",
-    "vite": "^4.1.0",
-    "vite-plugin-dts": "^2.0.2"
-  },
+  "devDependencies": {},
   "peerDependencies": {
     "react": "^16.8.0 || ^17.0.0 || ^18.0.0",
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"

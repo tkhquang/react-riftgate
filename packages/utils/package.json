@@ -1,6 +1,6 @@
 {
   "name": "@react-riftgate/utils",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "type": "module",
   "description": "Utilities for react-riftgate",
   "keywords": [
@@ -28,11 +28,8 @@
     "dev": "vite",
     "build": "tsc && vite build"
   },
-  "devDependencies": {
-    "typescript": "^4.9.3",
-    "vite": "^4.1.0",
-    "vite-plugin-dts": "^2.0.2"
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "files": [
     "dist"
   ],
