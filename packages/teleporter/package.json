@@ -35,8 +35,7 @@
     "react-dom": "^16.8.0 || ^17.0.0 || ^18.0.0"
   },
   "files": [
-    "dist",
-    "package.json"
+    "dist"
   ],
   "main": "./dist/@react-riftgate/teleporter.umd.js",
   "module": "./dist/@react-riftgate/teleporter.es.js",

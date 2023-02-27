@@ -32,8 +32,7 @@
   "dependencies": {},
   "devDependencies": {},
   "files": [
-    "dist",
-    "package.json"
+    "dist"
   ],
   "main": "./dist/@react-riftgate/utils.umd.js",
   "module": "./dist/@react-riftgate/utils.es.js",
