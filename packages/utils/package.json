@@ -25,10 +25,6 @@
     "url": "https://github.com/tkhquang/react-riftgate/issues"
   },
   "license": "MIT",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build"
-  },
   "dependencies": {},
   "devDependencies": {},
   "files": [
